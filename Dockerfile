@@ -1,4 +1,5 @@
-FROM mongo:6.0
+FROM mongo:4.4
+
 
 ENV MONGO_USERNAME=admin
 ENV MONGO_PASSWORD=admin
