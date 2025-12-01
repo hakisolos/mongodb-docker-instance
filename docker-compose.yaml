@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  mongo:
+    build: .
+    container_name: my_mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_USERNAME: admin
+      MONGO_PASSWORD: admin
+      MONGO_DATABASE_NAME: haki1234
